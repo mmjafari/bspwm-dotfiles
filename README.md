@@ -17,11 +17,12 @@ command | use
 super + d | application menu
 super + enter | lxterminal
 super + alt + q | exit session
-super + {t,T,s,f} | focused window condition modifier
+super + {t,T,s,f} | focused window size modifier
 super + m | should goto next desktop, but doesn't :))
 super + {0..9} | goto desktop
 super + w | close corrent window
 super + q | same do.[1]
+super + {h,c} | change fucesing
 click | focuse [2]
 
 note:
