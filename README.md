@@ -11,6 +11,13 @@ git clone http://github.com/mmjafari.bspwm-dotfiles
 cd bspwm-dotfiles
 ./install.sh
 ```
+after that, change this line:
+```bash
+~/.config/bspwm/bspwmrc
+-------------------------
+...
+feh (path to your wallpaper)
+```
 # usage
 command | use
 --------|--------
@@ -26,14 +33,18 @@ super + {h,c} | change fucesing
 click | focuse [2]
 
 note:
- 1 - change this line(sxhkdrc):
- ```bash
- bspc node focused --close
- ```
+ 1 - change this line:
+```bash
+~/.config/sxhkd/sxhkdrc
+-----------------------------
+bspc node focused --close
+```
  to that:
- ```bash
- bspc node focused --kill
- ```
+```bash
+~/.config/sxhkd/sxhkdrc
+-------------------------
+bspc node focused --kill
+```
  this will kill windows, grouping by app name.
  
  2. it's focusing by click. you can change it's value to false in bspwmrc
