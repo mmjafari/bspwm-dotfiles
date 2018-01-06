@@ -16,7 +16,7 @@ after that, change this line:
 ~/.config/bspwm/bspwmrc
 -------------------------
 ...
-feh (path to your wallpaper)
+feh --bg-scale (path to your wallpaper)
 ```
 # usage
 command | use
