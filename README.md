@@ -2,8 +2,11 @@
  my config for bspwm, tint2, dmenu and lxterminal.
  to install, see the blow.
 # screenshots
-![screenshot](wm.jpg?raw=true "Title")
-![screenshot](wm2.jpg?raw=true "Title")
+![screenshot](scr.jpg?raw=true )
+![screenshot](wm2.jpg?raw=true )
+![screenshot](wm.jpg?raw=true )
+-- better use with this theme:
+https://www.opendesktop.org/s/Gnome/p/1187179/
 # installation
 simply , try
 ```bash
