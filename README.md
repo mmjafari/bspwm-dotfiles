@@ -51,5 +51,3 @@ bspc node focused --kill
  this will kill windows, grouping by app name.
  
  2. it's focusing by click. you can change it's value to false in bspwmrc
- 
- 3. battery applet doesnot working :)
